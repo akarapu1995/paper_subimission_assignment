@@ -14,7 +14,7 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $active_group = 'default';
 $query_builder = TRUE;
 // Connect to DB
-$con = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+//$con = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 
 
@@ -22,7 +22,7 @@ $con = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cl
 
 
 
-  //  $con = mysqli_connect("localhost","root","","conference_review");
+ $con = mysqli_connect("us-cdbr-east-03.cleardb.com","bfaf0ca7a05b23","d27a14db","heroku_575f2b5ce891171");
    
  // Check connection
  
